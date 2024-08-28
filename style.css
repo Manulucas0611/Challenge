@@ -1,0 +1,100 @@
+*{
+    background: #E2DAD6;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 8%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #6482AD;
+    margin-top: 10px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #6482AD;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensaje {
+    background: #F5EDED;
+    background-image: url("imagenes/lupa1.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #6482AD;
+    margin-left: 98px;
+    margin-top: 10px;
+    padding-left: 20px;
+    
+}
+
+    .mensaje:focus {
+        outline: none;
+    }
+    .mensaje.clipboard:selection{
+        background-color:none;
+
+    }
+
+.informacion{
+    color: #6482AD;
+}
+
+.botones {
+    display: flex;
+    margin-top: 20px;
+}
+
+.boton-encriptar{
+    background-color: #6482AD;
+    border: 1px solid #6482AD;
+    border-radius: 24px;
+    color: #E2DAD6;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.boton-desencriptar{
+    background: #E2DAD6;
+    border: 1px solid #6482AD;
+    border-radius: 24px;
+    color: #6482AD;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+
+.boton-copiar {
+    background: #F5EDED;
+    border: 1px solid #6482AD;
+    border-radius: 24px;
+    color: #6482AD;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 790px;
+    position: absolute;
+    width: 336px;
+    
+
+}
